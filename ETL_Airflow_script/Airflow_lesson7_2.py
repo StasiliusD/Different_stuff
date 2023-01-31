@@ -28,9 +28,9 @@ default_args = {
 # Интервал запуска DAG
 schedule_interval = '0 11 * * *'
 
-token = '5880452781:AAEvY1EqwaUv_4Eo1TiPz0RLf-35IhWEvk8'
+token = '_'
 bot = telegram.Bot(token=token)
-chat_id = 1231933628
+chat_id = 0
 
 # DAG
 @dag(default_args=default_args, schedule_interval=schedule_interval, catchup=False)  

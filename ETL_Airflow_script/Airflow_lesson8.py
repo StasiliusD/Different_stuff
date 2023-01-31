@@ -21,9 +21,9 @@ connection = {'host': 'https://clickhouse.lab.karpov.courses',
               }
 schedule_interval = "*/15 * * * *"
 
-my_token = "5880452781:AAEvY1EqwaUv_4Eo1TiPz0RLf-35IhWEvk8"
+my_token = "_"
 bot = telegram.Bot(token=my_token)
-chat_id_group = 1231933628
+chat_id_group = 0
 
 # DAG
 @dag(default_args=default_args, schedule_interval=schedule_interval, catchup=False)  
